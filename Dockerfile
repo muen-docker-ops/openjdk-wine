@@ -13,5 +13,6 @@ RUN apt-get update && \
     /var/tmp/* \
     /var/log/*
 
-# 去掉原镜像的 entrypoint
+# 去掉原镜像的 entrypoint 和 cmd
 ENTRYPOINT []
+CMD []
