@@ -1,0 +1,1 @@
+`scottyhardy/docker-wine:latest`安装`java21`
