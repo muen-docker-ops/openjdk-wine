@@ -1,4 +1,4 @@
-FROM scottyhardy/docker-wine:latest
+FROM tobix/wine:test-arm64
 
 COPY png2slg/tools /usr/local/png2slg
 
