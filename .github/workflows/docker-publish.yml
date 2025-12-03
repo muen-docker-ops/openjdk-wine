@@ -40,6 +40,3 @@ jobs:
           platforms: linux/arm64,linux/amd64
           push: true
           tags: ${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG }}
-          build-args: |
-            BASE_IMAGE_AMD64=scottyhardy/docker-wine:latest
-            BASE_IMAGE_ARM64=tobix/wine:test-arm64
