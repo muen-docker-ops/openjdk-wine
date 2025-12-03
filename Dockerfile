@@ -1,4 +1,6 @@
-FROM scottyhardy/docker-wine:latest
+ARG BASE_IMAGE
+
+FROM ${BASE_IMAGE}
 
 COPY png2slg/tools /usr/local/png2slg
 
